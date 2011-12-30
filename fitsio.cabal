@@ -23,6 +23,6 @@ library
                    Data.Fits.GBT.ScanLog,
                    Data.Fits.WCS
   build-Depends:   base, filepath >= 1.1.0.1, mtl
-  extra-libraries: cfitsio
+  extra-libraries: cfitsio, m
   extensions:      ForeignFunctionInterface
   hs-source-dirs:  src/
